@@ -25,6 +25,7 @@ class ProductsTable
                     ->searchable(),
                 TextColumn::make('status'),
                 TextColumn::make('category.name'),
+                TextColumn::make('tags.name'),
             ])
             ->filters([
                 //
